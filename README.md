@@ -33,3 +33,6 @@ Generate xG and xT values to improve your football match analysis using a static
      print(get_xt(coords))
      ```
  
+## xG and xT Values
+
+This library generates simple xG and xT values for football analysts in need of a "quick and dirty" xG or xT model. It should be noted that this is a simple and static model. Professional models are far more dynamic and consider factors such as the opposition's location on the pitch and shot quality. This model does not. The goal of this library is to approximate the xG/xT model in cases where getting it 90% of the way there is sufficient.
